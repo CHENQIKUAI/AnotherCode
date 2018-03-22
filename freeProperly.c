@@ -10,7 +10,7 @@ int main() {
 	}
 
 
-	free(name);//When free is writing, the pogram does not work.Because the pointer name is the point to the start.
+	free(name);//When free is writing, the pogram does not work.Because the pointer name is not the point to the start.
 	//If we can get the start address, we can free the pointer successfully! :)
 
 
